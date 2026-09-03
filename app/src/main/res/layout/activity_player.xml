@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playerContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <WebView
+        android:id="@+id/playerWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false" />
+
+    <com.example.vvvip.CursorView
+        android:id="@+id/playerCursorView"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:visibility="visible" />
+</FrameLayout>

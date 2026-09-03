@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.Vvvip" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>
